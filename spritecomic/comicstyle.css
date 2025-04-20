@@ -2,7 +2,7 @@ body {
   -ms-interpolation-mode: nearest-neighbor;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
-  background-image: url("/page/spritecomic/background3.jpg");
+  background-image: url("/spritecomic/background3.jpg");
 }
 
 .main {
