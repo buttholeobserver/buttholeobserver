@@ -1,0 +1,28 @@
+body {
+  -ms-interpolation-mode: nearest-neighbor;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  background-image: url("/page/spritecomic/background3.jpg");
+}
+
+.main {
+  width: 650px;
+  margin: auto;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.comiclist {
+  width: 390px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: dashed;
+  border-color: #bbb;
+  margin: auto;
+  text-align: left;
+}
