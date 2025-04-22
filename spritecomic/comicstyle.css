@@ -2,7 +2,12 @@ body {
   -ms-interpolation-mode: nearest-neighbor;
   image-rendering: crisp-edges;
   image-rendering: pixelated;
-  background-image: url("/spritecomic/background3.jpg");
+  background-image: url("/page/spritecomic/background3.jpg");
+}
+
+hr {
+  border: 1px dashed #bbb;
+  width: 70%;
 }
 
 .main {
@@ -17,12 +22,13 @@ body {
 
 .comiclist {
   width: 390px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-style: dashed;
-  border-color: #bbb;
+  padding: 5px 20px;
+  border: 2px dashed #bbb;
   margin: auto;
   text-align: left;
+}
+
+.footsie {
+  width: 70%;
+  margin: auto;
 }
